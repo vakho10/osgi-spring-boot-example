@@ -9,5 +9,7 @@ Hence, it is now possible to use ```@Autowired``` annotation and retrieve ```Bun
 
 ![Scheme Image](./Spring%20Boot%20OSGI%20Scheme.png)
 
+## Secured REST Pages (/admin)
+I've also added secured REST endpoint which uses certificate authentication. I did authentication configuration according to [this](https://dzone.com/articles/securing-rest-apis-with-client-certificates) tutorial. Use **client.p12** file and access **/admin** page to test that it works.
 ## FAQs 
 There are no FAQs. If you have questions, just ask :) 
