@@ -6,5 +6,8 @@ Hence, it is now possible to use ```@Autowired``` annotation and retrieve ```Bun
 ## Project Structure
 * **osgi-spring-boot** - *Exposes ```HelloService``` API interface. Has REST services to call ```HelloService``` implementers and see the results.*
 * **hello-service-eng** - *Implements HelloService provided by our osgi-spring-boot applicaiton.*
+
+![Scheme Image](./Spring%20Boot%20OSGI%20Scheme.png)
+
 ## FAQs 
 There are no FAQs. If you have questions, just ask :) 
