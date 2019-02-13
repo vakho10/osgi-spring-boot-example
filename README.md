@@ -11,5 +11,7 @@ Hence, it is now possible to use ```@Autowired``` annotation and retrieve ```Bun
 
 ## Secured REST Pages (/admin)
 I've also added secured REST endpoint which uses certificate authentication. I did authentication configuration according to [this](https://dzone.com/articles/securing-rest-apis-with-client-certificates) tutorial. Use **client.p12** file and access **/admin** page to test that it works.
+## How to Run
+Execute ```mvn clean package``` and deploy JAR files generated in **target/** folders.
 ## FAQs 
 There are no FAQs. If you have questions, just ask :) 
